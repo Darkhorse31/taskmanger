@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.task {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 8rem;
+}
+.TaskmanagerWrapper {
+  background-color: rgba(108, 108, 109, 0.096);
+  min-width: 45rem;
+  box-shadow: 5px 8px 15px 0px rgba(0, 0, 0, 0.2);
+  min-height: 40rem;
+  display: grid;
+  place-items: center;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+.heading {
+  font-family: 'Great Vibes', cursive;
+  position: absolute;
+  top: 30px;
+  font-size: 4rem;
+  font-style: italic;
+}
+.taskform {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 0.5rem;
+}
+.taskform > input {
+  border: 0;
+  padding: 0.7rem 3rem;
+}
+input::placeholder {
+  font-size: 1.5rem;
+}
+.taskform > button {
+  width: 10rem;
+  padding-inline: 1rem;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  
+}
+button:active {
+  background-color: rgba(137, 43, 226, 0.397);
+}
+.All_task
+{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  height: 500px;
+  overflow: scroll;
+}
+.All_task::-webkit-scrollbar
+{
+  background-color: transparent;
+  width: 10px;
+}
+.All_task::-webkit-scrollbar-thumb
+{
+  background-color: rgba(92, 92, 95, 0.301);
+  border-radius: 10px;
+}

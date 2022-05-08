@@ -1,0 +1,39 @@
+.SingleTask {
+  background-color: rgba(108, 108, 109, 0.096);
+  width: 45rem;
+  box-shadow: 5px 8px 15px 0px rgba(0, 0, 0, 0.2);
+  height: 40rem;
+  display: grid;
+  place-items: center;
+  position: relative;
+  border-radius: 20px;
+  text-transform: capitalize;
+}
+.Edittask {
+  font-size: 3rem;
+  position: absolute;
+  top: 2rem;
+  font-weight: 400;
+  font-family: "Great Vibes", cursive;
+}
+.task_item {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.task_item > lable {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+}
+.task_item > input {
+  width: auto;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem 0rem;
+}
+.taskForm > button {
+  width: 20rem;
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 2rem 2rem 5rem 0px rgba(0, 0, 0, 0.2);
+}
